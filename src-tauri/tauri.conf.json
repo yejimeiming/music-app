@@ -1,8 +1,8 @@
 {
   "build": {
-    "beforeDevCommand": "yarn dev",
-    "beforeBuildCommand": "yarn build",
-    "devPath": "http://localhost:1420",
+    "beforeDevCommand": "npm run vite:dev",
+    "beforeBuildCommand": "npm run vite:build",
+    "devPath": "http://localhost:1520",
     "distDir": "../dist",
     "withGlobalTauri": false
   },
@@ -40,7 +40,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "tauri-music-app",
+        "title": "music-app",
         "width": 800,
         "height": 600
       }

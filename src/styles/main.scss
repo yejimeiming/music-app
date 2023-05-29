@@ -1,0 +1,34 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+
+  color: #0f0f0f;
+  background-color: #f6f6f6;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+* {
+  // 滚动条美化
+  &::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    box-shadow: inset 0 0 5px var(--primary-color-09);
+    background-color: var(--primary-color-07); // 滑动条
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--primary-color-04);
+    border-radius: 2px;
+    background-color: transparent; // 条背景
+  }
+}
